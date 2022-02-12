@@ -1,0 +1,106 @@
+/*-------- Custom styling----------*/
+#hero:before {
+
+    background: #d51c60;
+ 
+}
+
+#header.header-scrolled{
+    background: #d51c60;
+}
+.navbar .dropdown ul a{
+    color: #477bb6;
+}
+
+#hero .btn-get-started{
+    background: #477bb6;
+}
+
+.back-to-top{
+    background: #477bb6;
+}
+#hero h1 span{
+    border-bottom:4px solid #477bb6;
+}
+.navbar > ul > li > a:before{
+    background-color: #477bb6;
+}
+.about .icon-boxes h3{
+    color: #d51c60;
+}
+.section-title h2::after{
+    background: #477bb6;
+}
+.section-title p{
+    color: #d51c60;
+}
+.testimonials .swiper-pagination .swiper-pagination-bullet-active{
+    background-color: #477bb6;
+}
+
+.testimonials::before{
+    background: rgba(213,28,96,.8);
+}
+.faq .faq-list a.collapsed:hover{
+    color: #477bb6;
+}
+a.collapse{
+    color: #477bb6;
+}
+a{
+    color: #477bb6;
+}
+a:hover{
+    color: #477bb6;
+}
+.section h3 {
+    color: #d51c60;
+}
+
+.sectiontitle h3 {
+    font-size: 28px;
+    font-weight: 700;
+    color: #d51c60;
+    margin-bottom: 15px
+}
+.contact .info h4{
+    color: #d51c60;
+
+}
+.contact .info p{
+    color: #477bb6;
+
+}
+.contact .info i{
+    color: #477bb6;
+}
+.contact .php-email-form button[type=submit]{
+    background-color: #477bb6;
+
+}
+#footer{
+    background: #d51c60;
+}
+#footer .footer-top .footer-info{
+    background: #b50344;
+    border-top: 4px solid #477bb6;
+}
+#footer .footer-top .footer-newsletter form input[type=submit]{
+    background: #477bb6;
+}
+h3{
+
+    font-weight: bolder;
+}
+#footer .copyright{
+    border-top:1px solid #477bb6;
+}
+
+
+/*-----Mobile View-----*/
+
+
+.navbar-mobile{
+    background: rgba(213,28,96,.8);
+
+}
