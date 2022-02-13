@@ -14,6 +14,7 @@
 
 #hero .btn-get-started{
     background: #477bb6;
+    display: table;
 }
 
 .back-to-top{
@@ -74,10 +75,6 @@ a:hover{
 .contact .info i{
     color: #477bb6;
 }
-.contact .php-email-form button[type=submit]{
-    background-color: #477bb6;
-
-}
 #footer{
     background: #d51c60;
 }
@@ -95,7 +92,139 @@ h3{
 #footer .copyright{
     border-top:1px solid #477bb6;
 }
-
+.contact .contact-email-form {
+    width: 100%;
+    background: #fff;
+  }
+  .contact .contact-email-form .form-group {
+    padding-bottom: 8px;
+  }
+  .contact .contact-email-form .error-message {
+    display: none;
+    color: #fff;
+    background: #ed3c0d;
+    text-align: left;
+    padding: 15px;
+    font-weight: 600;
+  }
+  .contact .contact-email-form .error-message br + br {
+    margin-top: 25px;
+  }
+  .contact .contact-email-form .sent-message {
+    display: none;
+    color: #fff;
+    background: #18d26e;
+    text-align: center;
+    padding: 15px;
+    font-weight: 600;
+  }
+  .contact .contact-email-form .loading {
+    display: none;
+    background: #fff;
+    text-align: center;
+    padding: 15px;
+  }
+  .contact .contact-email-form .loading:before {
+    content: "";
+    display: inline-block;
+    border-radius: 50%;
+    width: 24px;
+    height: 24px;
+    margin: 0 10px -6px 0;
+    border: 3px solid #18d26e;
+    border-top-color: #eee;
+    -webkit-animation: animate-loading 1s linear infinite;
+    animation: animate-loading 1s linear infinite;
+  }
+  .contact .contact-email-form input, .contact .contact-email-form textarea {
+    border-radius: 0;
+    box-shadow: none;
+    font-size: 14px;
+  }
+  .contact .contact-email-form input {
+    height: 44px;
+  }
+  .contact .contact-email-form textarea {
+    padding: 10px 12px;
+  }
+  .contact .contact-email-form button[type=submit] {
+    background: #477bb6;
+    border: 0;
+    padding: 10px 30px;
+    color: #fff;
+    transition: 0.4s;
+    border-radius: 50px;
+  }
+  .contact .contact-email-form button[type=submit]:hover {
+    background: #34e5a6;
+  }
+  /* // */
+.enroll-email-form {
+    width: 100%;
+    background: #fff;
+  }
+.enroll-email-form .form-group {
+    padding-bottom: 8px;
+  }
+.enroll-email-form .error-message {
+    display: none;
+    color: #fff;
+    background: #ed3c0d;
+    text-align: left;
+    padding: 15px;
+    font-weight: 600;
+  }
+.enroll-email-form .error-message br + br {
+    margin-top: 25px;
+  }
+.enroll-email-form .sent-message {
+    display: none;
+    color: #fff;
+    background: #18d26e;
+    text-align: center;
+    padding: 15px;
+    font-weight: 600;
+  }
+.enroll-email-form .loading {
+    display: none;
+    background: #fff;
+    text-align: center;
+    padding: 15px;
+  }
+.enroll-email-form .loading:before {
+    content: "";
+    display: inline-block;
+    border-radius: 50%;
+    width: 24px;
+    height: 24px;
+    margin: 0 10px -6px 0;
+    border: 3px solid #18d26e;
+    border-top-color: #eee;
+    -webkit-animation: animate-loading 1s linear infinite;
+    animation: animate-loading 1s linear infinite;
+  }
+.enroll-email-form input, .enroll-email-form textarea {
+    border-radius: 0;
+    box-shadow: none;
+    font-size: 14px;
+  }
+.enroll-email-form input {
+    height: 44px;
+  }
+.enroll-email-form textarea {
+    padding: 10px 12px;
+  }
+.enroll-email-form button[type=submit] {
+    background: #477bb6;
+    border: 0;
+    padding: 10px 30px;
+    color: #fff;
+    transition: 0.4s;
+    border-radius: 50px;
+  }
+.enroll-email-form button[type=submit]:hover {
+    background: #34e5a6;
+  }
 
 /*-----Mobile View-----*/
 
