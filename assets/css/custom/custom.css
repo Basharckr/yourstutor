@@ -20,6 +20,35 @@
 .back-to-top{
     background: #477bb6;
 }
+
+.wa {
+  position: fixed;
+  visibility: hidden;
+  opacity: 0;
+  right: 15px;
+  bottom: 15px;
+  z-index: 996;
+  background: #29b53f;
+  width: 40px;
+  height: 40px;
+  border-radius: 50px;
+  transition: all 0.4s;
+  margin-bottom: 45px;
+}
+.wa i {
+  font-size: 28px;
+  color: #fff;
+  line-height: 0;
+}
+.wa:hover {
+  background: #2be4a2;
+  color: #fff;
+}
+.wa.active {
+  visibility: visible;
+  opacity: 1;
+}
+
 #hero h1 span{
     border-bottom:4px solid #477bb6;
 }
